@@ -1,0 +1,19 @@
+{
+  "name": "emscripten-fun",
+  "version": "0.0.0",
+  "description": "Emscripten-fun",
+  "main": "a.out.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "emcc src/color_cube.c -o web/color_cube.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1337programming/emscripten-fun.git"
+  },
+  "author": "Patrick Opie",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/1337programming/emscripten-fun/issues"
+  }
+}
